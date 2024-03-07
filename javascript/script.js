@@ -4,9 +4,9 @@
 const current = window.location.href;
 
 //index.html・category.html・product.html・search.html・data.jsonのURL
-const url_1 = 'https://ginjirokikumoto.github.io/bike-shop/index.html';
-const url_2 = 'https://ginjirokikumoto.github.io/bike-shop/category.html?';
-const url_3 = 'https://ginjirokikumoto.github.io/bike-shop/product.html?';
+const url_1 = 'index.html';
+const url_2 = 'category.html?';
+const url_3 = 'product.html?';
 const url_search = 'https://ginjirokikumoto.github.io/bike-shop/search.html?';
 const url_json = '../data/json/data.json';
 
