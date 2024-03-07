@@ -4,10 +4,10 @@
 const current = window.location.href;
 
 //index.html・category.html・product.html・search.html・data.jsonのURL
-const url_1 = 'http://127.0.0.1:5500/index.html';
-const url_2 = 'http://127.0.0.1:5500/category.html?';
-const url_3 = 'http://127.0.0.1:5500/product.html?';
-const url_search = 'http://127.0.0.1:5500/search.html?';
+const url_1 = 'https://ginjirokikumoto.github.io/bike-shop/index.html';
+const url_2 = 'https://ginjirokikumoto.github.io/bike-shop/category.html?';
+const url_3 = 'https://ginjirokikumoto.github.io/bike-shop/product.html?';
+const url_search = 'https://ginjirokikumoto.github.io/bike-shop/search.html?';
 const url_json = '../data/json/data.json';
 
 //検索BOXの要素を取得
