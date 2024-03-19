@@ -42,14 +42,6 @@ header {
     margin: 0 auto;
     width: 1200px;
 }
-/* @media(max-width:899px){
-    #main{
-        width :890px
-    }
-    h2 {
-        width: 850px;
-    }
-} */
 
 .breadcrumb {
     text-align: center;
@@ -57,11 +49,12 @@ header {
     height: 30px;
 }
 a{
+    color: black;
     text-decoration: none;
 }
 
 .breadcrumb span a:hover {
-    color: palevioletred;
+    color: #ff7a7a;
 }
 
 .box1 {
@@ -165,7 +158,7 @@ h3 {
 .down_button:hover,
 .up_button:hover,
 .inputtext:hover {
-    color: palevioletred;
+    color: #ff7a7a;
 }
 
 .navipage {
@@ -185,7 +178,7 @@ h3 {
 }
 
 span:hover {
-    color: palevioletred;
+    color: #ff7a7a;
 }
 
 #prev {
@@ -214,4 +207,17 @@ footer {
     padding: 0;
     height: 400px;
     background-color: #d9d9d9;
+}
+@media(max-width:414px){
+    header{
+        width: 378px;
+    }
+    #autoComplete {
+        width: 300px;
+        margin: 17px 0 0 0;
+    }
+    #submit {
+        width: 40px;
+        padding: 0;
+    }
 }
