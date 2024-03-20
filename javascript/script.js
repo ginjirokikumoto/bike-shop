@@ -29,7 +29,7 @@ let submit = document.querySelector('#submit');
 //検索したワードが含まれるproductが全て入る配列
 let search_arr = [];
 
-// //Enterキーが押された時
+//Enterキーが押された時
 search.addEventListener("keydown", test_event);
 function test_event(e) {
     if (e.key === "Enter") {
@@ -376,7 +376,9 @@ $(document).ready(function () {
     //検索したワードがproductに含まれていなかった場合
     if (search_arr.length == 0 && current.indexOf('search.html?' + 'page=1/') != -1) {
         $('h2').text('「' + sessionStorage.getItem('search') + '」の検索結果：' + '0件');
-        $(search).attr('value', sessionStorage.getItem('search'))
+        $(search).attr('value', sessionStorage.getItem('search'));
+        let box2_element = document.querySelector('.box2');
+        box2_element.className = 'aaa';
     }
 
     //検索したワードがproductに含まれていた場合
